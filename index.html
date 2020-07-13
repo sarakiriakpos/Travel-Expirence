@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> The TravelXperience</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo1.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--Custom CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Flaticons CSS-->
+    <link href="font/flaticon.css" rel="stylesheet" type="text/css">
+    <!--Plugin CSS-->
+    <link href="css/plugin.css" rel="stylesheet" type="text/css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <!-- Preloader Ends -->
+
+    <!-- Header -->
+    <header class="head-style-1">
+        <div class="upper-head clearfix">
+            <div class="container">
+                <div class="upper-head-inner">
+                    <div class="contact-info pull-left">
+                        <div class="contact-info-item"><i class="flaticon-phone-call"></i><p> Phone: <span>+2348181025777 +2347019818875</span></p></div>
+                        <i class="flaticon-mail"></i><p> Mail: <span>hello@thetravelxperience.com</span></p>
+                    </div>
+                    <div class="login-btn pull-right">
+                        <a href="login.html"><i class="fa fa-user-plus"></i> Register</a>
+                        <a href="login.html"><i class="fa fa-unlock-alt"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <div class="navigation head-style-1">  
+            <div class="container">
+                <div class="navigation-content">
+                    <div class="header_menu">
+                        <!-- start Navbar (Header) -->
+                    <nav class="navbar navbar-default navbar-sticky-function navbar-arrow">
+                        <div style="float: left; width: 15%"class="logo pull-left">
+                            <a href="index.html">
+                                <img alt="Image" src="images/travel ex logo.png" width="10%"class="logo-white">
+                                <img alt="Image" src="images/travel ex logo.png" class="logo-color">
+                            </a>
+                        </div>
+                        <div id="navbar" class="navbar-nav-wrapper">
+                            <ul class="nav navbar-nav" id="responsive-menu">
+                                <li class="active">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="hotel.html">Hotel</a>
+                                </li>
+                                <li>
+                                    <a href="flight.html">Flights</a>
+                                </li>
+                                <li>
+                                    <a href="car-list-view.html">Cars</a>
+                                </li>
+                                <li>
+                                    <a href="cruise-list-view.html">Cruise</a>
+                                </li>
+                                <li>
+                                   <a href="contactus.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="aboutus.html">About Us</a>
+                                </li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                        <div id="slicknav-mobile"></div>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation Bar Ends -->
+
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Banner -->
+    <section id="home_banner_video" class="banner-style-1">
+        <div class="video-banner">
+            <img src="images/slider/slider14.jpg" alt="image">
+        </div>
+        <div class="video-banner-content">
+            <div class="js_frm_subscribe">
+                <div class="kenburns_061_slide slider-content">
+                    <h1>Welcome To Travel Experience</h1>
+                    <h2>Creating a Lovely experience that leaves You speechless</h2>
+                    <a href="aboutus.html" class="btn-blue btn-red btn-style-1">Learn more About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Ends -->
+
+    <!-- Search Box -->
+    <div class="search-box clearfix bg-white">
+        <div class="container">
+            <div class="search-outer">
+                <div class="search-content">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="search-ad">
+                                    <p>Find Your <span>Holiday</span></p>
+                                    <i class="flaticon-sun-umbrella "></i>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="table_item">
+                                    <div class="form-group">
+                                        <select name="custom-select-1" class="selectpicker form-control" tabindex="1">
+                                            <option value="0">Destination</option>
+                                            <option value="1">0</option>
+                                            <option value="2">1</option>
+                                            <option value="3">2</option>
+                                            <option value="4">3</option>
+                                            <option value="5">4</option>
+                                        </select>
+                                        <i class="flaticon-maps-and-flags"></i>
+                                    </div>
+                                    <div class="form-group  form-icon">
+                                        <select name="custom-select-2" class="selectpicker form-control" tabindex="1">
+                                            <option value="0">Type</option>
+                                            <option value="1">0</option>
+                                            <option value="2">1</option>
+                                            <option value="3">2</option>
+                                            <option value="4">3</option>
+                                            <option value="5">4</option>
+                                        </select>
+                                        <i class="flaticon-box"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="table_item">
+                                    <div class="form-group">
+                                        <div class='input-group date' id='datetimepicker1'>
+                                            <input type='text' class="form-control" value="dd-mm-yyyy" />
+                                            <i class="flaticon-calendar"></i>
+                                            <span class="input-group-addon">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-icon">
+                                        <div class='input-group date' id='datetimepicker2'>
+                                            <input type='text' class="form-control" value="dd-mm-yyyy" />
+                                            <i class="flaticon-calendar"></i>
+                                            <span class="input-group-addon">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="table_item table-item-slider">
+                                    <div class="range-slider">
+                                        <div data-min="0" data-max="2000" data-unit="$" data-min-name="min_price" data-max-name="max_price" class="range-slider-ui ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                                            <span class="min-value">&#8358;0</span> 
+                                            <span class="max-value">&#8358;500,000.00</span>
+                                            <div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 100%;"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="search">
+                                       <a href="#" class="btn-blue btn-red">SEARCH</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Box Ends -->
+
+    <!-- Popular Packages --> 
+    <section class="popular-packages">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Popular Packages</h2>
+                <div class="section-icon">
+                    <i class="flaticon-diamond"></i>
+                </div>
+                <p>The Travel Experience is one of the leading Africa Online Travel Agency and 
+                Tour Operators aiming to ensure our clients gets lovely and 
+                memorable experience on their trips. 
+                </p>
+            </div>
+            <div class="row package-slider slider-button">
+                <div class="col-sm-4">
+                    <div class="package-item">
+                        <div class="package-image">
+                            <img src="images/package4.jpg" alt="Image">
+                            <div class="package-price">
+                                <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                </div>
+                                <p><span>&#8358;405,000.00</span> / PER </p>
+                            </div>
+                        </div>
+                        <div class="package-content">
+                            <h3>Easter in Dubai and Abu DHABI</h3>
+                            <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                            <p>Make this Easter a total experience in Dubai and Abu Dhabi.</p>
+                            <div class="package-info">
+                                <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="package-item">
+                        <div class="package-image">
+                            <img src="images/package5.jpg" alt="Image">
+                            <div class="package-price">
+                                <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                </div>
+                                <p><span>&#8358;350,000.00</span> / PER </p>
+                            </div>
+                        </div>
+                        <div class="package-content">
+                            <h3>Dubai Calling</h3>
+                            <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                            <p>Ball in Dubai for 5 days with this our exclusive package. A total experience package.</p>
+                            <div class="package-info">
+                                <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="package-item">
+                        <div class="package-image">
+                            <img src="images/package6.jpg" alt="Image">
+                            <div class="package-price">
+                                <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                </div>
+                                <p><span>&#8358;395,000.00</span> / PER </p>
+                            </div>
+                        </div>
+                        <div class="package-content">
+                            <h3>Party After Party</h3>
+                            <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                            <p>Party unending in Dubai with this Total Experience Package.</p>
+                            <div class="package-info">
+                                <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="package-item">
+                        <div class="package-image">
+                            <img src="images/package7.jpg" alt="Image">
+                            <div class="package-price">
+                                <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                </div>
+                                <p><span>&#8358;375,000.00</span> / PER </p>
+                            </div>
+                        </div>
+                        <div class="package-content">
+                            <h3>Easter in Cape Verde</h3>
+                            <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                            <p>Enjoy the beautiful sight of Cape Verde this Easter with this Total Experience Package.</p>
+                            <div class="package-info">
+                                <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="package-item">
+                        <div class="package-image">
+                            <img src="images/package8.jpg" alt="Image">
+                            <div class="package-price">
+                                <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                </div>
+                                <p><span>&#8358;1,350,000.00</span> / PER </p>
+                            </div>
+                        </div>
+                        <div class="package-content">
+                            <h3>Valentine in Paris</h3>
+                            <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                            <p>Get away with the love of your life to the City of Love and feel the Total Experience.</p>
+                            <div class="package-info">
+                                <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="package-item">
+                        <div class="package-image">
+                            <img src="images/package6.jpg" alt="Image">
+                            <div class="package-price">
+                                <div class="deal-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-o"></span>
+                                    <span class="fa fa-star-o"></span>
+                                </div>
+                               <p><span>&#8358;395,000.00</span> / PER </p>
+                            </div>
+                        </div>
+                        <div class="package-content">
+                            <h3>Party After Party</h3>
+                            <p class="package-days"><i class="flaticon-time"></i> 5 days</p>
+                            <p>Party unending in Dubai with this Total Experience Package.</p>
+                            <div class="package-info">
+                            <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular Packages Ends -->
+
+    <!-- Deals -->
+    <section class="deals">
+        <div class="container">
+            <div class="section-title section-title-white text-center">
+                <h2>Last Minute Deals</h2>
+                <div class="section-icon">
+                    <i class="flaticon-diamond"></i>
+                </div>
+                <p>Check out for The Total Experience Last Minutes Deals Every day and get Wonderful deals.</p>
+            </div>
+            <div class="deals-outer">
+                <div class="row deals-slider slider-button">
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal11.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>Summer in Madrid, Spain</h3>
+                                    <p>Enjoy your summer with our deals in Madrid.</p>
+                                    <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal10.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>Disturbing Dubai</h3>
+                                    <p>Jump on us and distrub Dubai with our amazinf deals.</p>
+                                   <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal9.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>2020 Calander</h3>
+                                    <p>Keep a date with us in 2020 as we offer you amazing deals.</p>
+                                    <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal9.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>2020 Calander</h3>
+                                    <p>Keep a date with us in 2020 as we offer you amazing deals.</p>
+                                    <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal7.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>Dubai and Abu Dabhi</h3>
+                                    <p>Make this Easter count in Dubai and Abu Dabhi with our Awesome deals.</p>
+                                    <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal11.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>Summer in Madrid, Spain</h3>
+                                    <p>Enjoy your summer with our deals in Madrid.</p>
+                                    <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal10.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                        <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>Disturbing Dubai</h3>
+                                    <p>Jump on us and distrub Dubai with our amazinf deals.</p>
+                                    <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="deals-item">
+                            <div class="deals-item-outer">
+                                <div class="deals-image">
+                                    <img src="images/deal7.jpg" alt="Image">
+                                    <span class="deal-price"></span>
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star-o"></span>
+                                       <span class="fa fa-star-o"></span>
+                                    </div>
+                                    <h3>Dubai and Abu Dabhi</h3>
+                                    <p>Make friends with the ancient City of Cairo and Feel Total Experience.</p>
+                                   <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-overlay"></div>
+    </section>
+    <!-- Deals Ends -->
+
+    <!--* bucket*-->
+    <section id="bucket-list" class="bucket-list">
+
+        <div class="bucket-icons">
+            <div class="container">   
+                <div class="section-title text-center">
+                    <h2>Top up your Bucket List</h2>
+                    <div class="section-icon">
+                        <i class="flaticon-diamond"></i>
+                    </div>
+                    <p>COMBO TOURS (Dubai City Tour, Desert Safari and  Dhow Cruise for BurDubai/ Deira Pick-up Area Only):
+                      Desert Safari and Dhow Cruise comes with Dinner. All 3 tourscome with Transfer – BurDubai and Deira Pick-up Area only. $100 Adult and Child. </b>
+                     COMBO TOURS (Dubai City Tour, Desert Safari and  Dhow Cruise for Pick-up from Other Area outside BurDubai and Deira): Desert Safari and Dhow Cruise comes with Dinner. All 3 tourscome with Transfer -  Other locations(outside BurDubai and Deira) </b>
+                     Half Day Dubai City Tour (Pick up areas from Deira and BurDubai) Adult $40 child $36 With Transfer 4 Half Day Dubai City Tour
+                     (Pick up areas from Other Areas)Adult $40 child $42 With Transfer 5 Abu Dhabi Tour Adult $50 child $45 With Transfer 6 Desert Safari Adult $45 child $40 With Transfer and Dinner 7 Dhow Cruise Basic Adult $35 child $32
+                     With Transfer and Dinner 8 Water Canal Business Bay Glass Cruise Adult $53 child $51 With Transfer and Dinner 9 Marina Dhow Cruise Adult $54 child $52 With Transfer and Dinner 10 Emirates Park & Zoo Tickets- Abu Dhabi Adult $35 child $35 Ticket only 11 Dubai Frame 
+                     Tickets Adult $40 child $35 Ticket only 12 Dubai Garden Glow Adult $34 child $34 Ticket only 13 Etihad Museum Tickets Adult $35 child $35. 
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mt_filter">
+                            <ul class="list-inline text-center filter">
+                                <li class="active"><a href="#" data-filter=".cycling"><i class="flaticon-bicycle"></i><span>CYCLING</span></a></li>
+                                <li><a href="#" data-filter=".sailing"><i class="flaticon-sailboat"></i><span>SAILING</span></a></li>
+                                <li><a href="#" data-filter=".wildlife"><i class="flaticon-wolf"></i><span>WILDLIFE</span></a></li>
+                                <li><a href="#" data-filter=".family"><i class="flaticon-family"></i><span>FAMILY</span></a></li>             
+                                <li><a href="#" data-filter=". "><i class="flaticon-man-in-hike"></i><span>HIKING</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+
+        <div class="bucket-content">
+            <div class="container">
+                <div class="row isotopeContainer">
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector cycling wildlife family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket1.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Ghana - Good Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;400,000.00</span><span>&#8358;350,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector cycling family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket5.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Italy - Good Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;600,000.00</span><span>&#8358;500,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket3.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Bahamas - Total Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;600,000.00</span><span>&#8358;500,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector wildlife family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket2.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Egypt - Good Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;400,000.00</span><span>&#8358;300,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector sailing wildlife family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket4.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Italy - Good Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;400,000.00</span><span>&#8358;300,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector sailing wildlife family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket5.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Ghana - Fine Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;500,000.00</span><span>&#8358;400.000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket4.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Ghana - Fine Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;550,000.00</span><span>&#8358;450,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket5.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Italy - Good Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;500,000.00</span><span>&#8358;350,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector sailing wildlife family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket1.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Bahamas - Total Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;500,000.00</span><span>&#8358;400,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector  wildlife family">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket5.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Skiing Obudu - Wonderful Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;300,000.00</span><span>&#8358;200,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector wildlife family">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket1.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Egypt - Total Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;700,000.00</span><span>&#8358;600,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector sailing wildlife family hiking">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket6.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Bala - Awesome Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;700,000.00 </span><span>&#8358;600,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector cycling sailing">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket5.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Napel - Total Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;750, 000.00</span><span> &#8358;600,000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-xs-6 no-padding isotopeSelector cycling sailing">
+                        <div class="hovereffect-bucket bucket-item">
+                            <div class="bucket-image"><img src="images/bucket1.jpg" alt="image" class="img-responsive" /></div>
+                            <div class="bucket-item-content">
+                                <h3><a href="#">Sailing Thailand - Great Experience</a></h3>
+                                <span>7 days </span><span class="old-price">&#8358;650,000.00 </span><span>&#8358;600.000.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section-overlay"></div>
+            </div>
+        </div>
+    </section>
+    <!--* End bucket*-->
+
+    <!-- Top Destinations -->
+    <section class="top-destinations">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Top Destinations</h2>
+                <div class="section-icon">
+                    <i class="flaticon-diamond"></i>
+                </div>
+                <p>Come and Explore our Top Destination and get Total Experience the best </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-4">
+                    <div class="top-destination-item">
+                        <img class="img-responsive" src="images/deal1.jpg" alt="Image">
+                        <div class="overlay">
+                            <h2><a href="#">Bahamas</a></h2>
+                            <p>Plan Your Tour to Bahamas With Us.</p>
+                        </div>
+                    </div>
+                    <div class="top-destination-item">
+                        <img class="img-responsive" src="images/deal2.jpg" alt="Image">
+                        <div class="overlay">
+                            <h2><a href="#">Italy</a></h2>
+                            <p>Plan Your Tour to Italy With Us.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="top-destination-item destination-margin">
+                        <img class="img-responsive" src="images/deal5.jpg" alt="Image">
+                        <div class="overlay overlay-full">
+                            <h2><a href="#">Egypt</a></h2>
+                            <p>Plan Your Tour to Egypt With Us.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="top-destination-item">
+                        <img class="img-responsive" src="images/deal3.jpg" alt="Image">
+                        <div class="overlay">
+                            <h2><a href="#">Nepal</a></h2>
+                            <p>Plan Your Tour to Nepal With Us.</p>
+                        </div>
+                    </div>
+                    <div class="top-destination-item">
+                        <img class="img-responsive" src="images/deal4.jpg" alt="Image">
+                        <div class="overlay">
+                            <h2><a href="#">Thailand</a></h2>
+                            <p>Plan Your Tour to Thailand With Us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Destination Ends -->
+
+    <!-- Trip Ad -->
+    <section class="trip-ad">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    
+                    <div class="trip-ad-content">
+                        <div class="ad-title">
+                            <h2>Explore The<span>Thailand Trip</span></h2>
+                        </div>
+                        <p>Come and Travel with us to Thailand to Experience the calm and freindly environment of Thailand.</p>
+                        <p>When it comes to environmental beauty Thailand comes second to none, The Travel Experience gives you the opportunity to tour this beauty nation with ease.</p>
+                        <div class="trip-ad-btn">
+                            <a href="payment.html" class="btn-blue btn-red">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="ad-price">
+                        <div class="ad-price-inner">
+                            <span>Starting at <span class="rate">&#8358;800,000</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trip Ad Ends -->
+
+
+    <!-- Deals On Sale -->
+    <section class="deals-on-sale">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Deals On Sale</h2>
+                <div class="section-icon">
+                    <i class="flaticon-diamond"></i>
+                </div>
+                <p>Logistic Services: Within State Delivery, Interstate Delivery, Intercountry Delivery,
+                    Relocation Services, Truck Delivery, EazzyDelivery Hubs
+                    EazzyTransfer: Oversea Money Transfer, FX Exchange
+                    Training: IATA Trainings Programs, VIP Flight Attendant Training, 
+                    VIP Cabin Crew Training,  VIP Cabin Crew Jobs, Pilot Trainings.
+                </p>
+            </div>
+            <div class="row sale-slider slider-button">
+                <div class="col-md-12">
+                    <div class="sale-item">
+                        <div class="sale-image">
+                            <img src="images/sale1.jpg" alt="Image">
+                        </div>
+                        <div class="sale-content">
+                            <div class="sale-review">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <h3><a href="#">Take your kids to Disney</a></h3>
+                            <p><i class="flaticon-time"></i> 5 days</p>
+                            <p>Take your kids to Disney Land and give them a memorable experience for less.</p>
+                            <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                        </div>
+                        <div class="sale-tag">
+                            <span class="old-price">&#8358;750,000.00</span>
+                            <span class="new-price">&#8358;650,000.00</span>
+                        </div>
+                        <div class="sale-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="sale-item">
+                        <div class="sale-image">
+                            <img src="images/sale2.jpg" alt="Image">
+                        </div>
+                        <div class="sale-content">
+                            <div class="sale-review">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <h3><a href="#">Tour Paris</a></h3>
+                            <p><i class="flaticon-time"></i> 5 days</p>
+                            <p>Visit the City of Love with the love of your love for a cut price.</p>
+                            <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                        </div>
+                        <div class="sale-tag">
+                            <span class="old-price">&#8358;700,000.00</span>
+                            <span class="new-price">&#8358;580,000.00</span>
+                        </div>
+                        <div class="sale-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="sale-item">
+                        <div class="sale-image">
+                            <img src="images/sale3.jpg" alt="Image">
+                        </div>
+                        <div class="sale-content">
+                            <div class="sale-review">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <h3><a href="#">Visit and Tour The Bahamas</a></h3>
+                            <p><i class="flaticon-time"></i> 5 days</p>
+                            <p>Go on tour and Explore the beautiful landscape of the Bahamas with us at these pocket friendly prices.</p>
+                            <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                        </div>
+                        <div class="sale-tag">
+                            <span class="old-price">&#8358;500,000.00</span>
+                            <span class="new-price">&#8358;350,000.00</span>
+                        </div>
+                        <div class="sale-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="sale-item">
+                        <div class="sale-image">
+                            <img src="images/sale4.jpg" alt="Image">
+                        </div>
+                        <div class="sale-content">
+                            <div class="sale-review">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <h3><a href="#">Explore The Carribeans</a></h3>
+                            <p><i class="flaticon-time"></i> 5 days</p>
+                            <p>Enjoy the serene environment of various Caribbean cities and tell your story with out cut prices.</p>
+                            <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                        </div>
+                        <div class="sale-tag">
+                            <span class="old-price">&#8358;400,000.00</span>
+                            <span class="new-price">&#8358;300,000.00</span>
+                        </div>
+                        <div class="sale-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="sale-item">
+                        <div class="sale-image">
+                            <img src="images/sale1.jpg" alt="Image">
+                        </div>
+                        <div class="sale-content">
+                            <div class="sale-review">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <h3><a href="#">Explore Egypt</a></h3>
+                            <p><i class="flaticon-time"></i> 5 days</p>
+                            <p>Visit Egypt and see the popular Pyramid for less, pocket friendly cost.</p>
+                            <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                        </div>
+                        <div class="sale-tag">
+                            <span class="old-price">&#8358;500,000.00</span>
+                            <span class="new-price">&#8358;400,000.00</span>
+                        </div>
+                        <div class="sale-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="sale-item">
+                        <div class="sale-image">
+                            <img src="images/sale3.jpg" alt="Image">
+                        </div>
+                        <div class="sale-content">
+                            <div class="sale-review">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <h3><a href="#"></a>Come to Calabar</h3>
+                            <p><i class="flaticon-time"></i> 5 days</p>
+                            <p>Visit Calabar and Enjoy the beauty of Obudu Cattle Ranch and true hospitality.</p>
+                           <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                        </div>
+                        <div class="sale-tag">
+                            <span class="old-price">&#8358;200,000.00</span>
+                            <span class="new-price">&#8358;120,000.00</span>
+                        </div>
+                        <div class="sale-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="sale-item">
+                        <div class="sale-image">
+                            <img src="images/sale2.jpg" alt="Image">
+                        </div>
+                        <div class="sale-content">
+                            <div class="sale-review">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                            <h3><a href="#">Visit Ghana</a></h3>
+                            <p><i class="flaticon-time"></i> 5 days</p>
+                            <p>Ghana provide's some of the best site in tourism, come and see the beauty of Accra.</p>
+                            <a href="payment.html" class="btn-blue btn-red">Book Now</a>
+                        </div>
+                        <div class="sale-tag">
+                            <span class="old-price">&#8358;250,000.00</span>
+                            <span class="new-price">&#8358;150,000.00</span>
+                        </div>
+                        <div class="sale-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Deals On Sale Ends -->
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="section-title text-center">
+            <h2>Best Rated Travel Agency</h2>
+            <div class="section-icon section-icon-white">
+                <i class="flaticon-diamond"></i>
+            </div>       
+        </div>
+        <!-- Paradise Slider -->
+        <div id="testimonial_094" class="carousel slide testimonial_094_indicators thumb_scroll_x swipe_x ps_easeOutSine" data-ride="carousel" data-pause="hover" data-interval="3000" data-duration="1000">
+
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#testimonial_094" data-slide-to="0" class="active">
+                    <img src="images/.jpg" alt="testimonial_094_01"> <!-- 1st Image -->
+                </li>
+                <li data-target="#testimonial_094" data-slide-to="1">
+                    <img src="images/testemonial2.jpg" alt="testimonial_094_02"> <!-- 2nd Image -->
+                </li>
+                <li data-target="#testimonial_094" data-slide-to="2">
+                    <img src="images/testemonial3.jpg" alt="testimonial_094_03"> <!-- 3rd Image -->
+                </li>
+                <li data-target="#testimonial_094" data-slide-to="3">
+                    <img src="images/testemonial4.jpg" alt="testimonial_094_04"> <!-- 4th Image -->
+                </li>
+                <li data-target="#testimonial_094" data-slide-to="4">
+                    <img src="images/testemonial5.jpg" alt="testimonial_094_05"> <!-- 5th Image -->
+                </li>
+            </ol>
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- First Slide -->
+                <div class="item active">
+                    <!-- Text Layer -->
+                    <div class="testimonial_094_slide">
+                        <p>24/7 Travel Agency & Tour Operators. Made by the African Woman, 
+                            for the African woman</p>
+                        <div class="deal-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <h5><a href="#">Kevin Edafe, Abuja.</a></h5>
+                    </div> <!-- /Text Layer -->
+                </div> <!-- /item -->
+                <!-- End of First Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+                    <!-- Text Layer -->
+                    <div class="testimonial_094_slide">
+                        <p>We offer our Corporate Clients Credit Facilities.</p>
+                        <div class="deal-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <h5><a href="#">Sarakiri Akpos, Asaba</a></h5>
+                    </div> <!-- /Text Layer -->
+                </div> <!-- /item -->
+                <!-- End of Second Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+                    <!-- Text Layer -->
+                    <div class="testimonial_094_slide">
+                        <p>We give our customers the option to pay on confirmation that their visa application is successful</p>
+                        <div class="deal-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <h5><a href="#">xsaysoft Technology, Abuja</a></h5>
+                    </div> <!-- /Text Layer -->
+                </div> <!-- /item -->
+                <!-- End of Third Slide -->
+
+                <!-- Fourth Slide -->
+                <div class="item">
+                    <!-- Text Layer -->
+                    <div class="testimonial_094_slide">
+                        <p>Group Tour, Solo Trips, Honeymoon Destinations, School Travel - Elementary School Travels, Sport Travels, Youth Sport Programs, Travel, Party Religious Tour</p>
+                        <div class="deal-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <h5><a href="#">xsaysoft Technology, Abuja</a></h5>
+                    </div> <!-- /Text Layer -->
+                </div> <!-- /item -->
+                <!-- End of Fourth Slide -->
+
+                <!-- Fifth Slide -->
+                <div class="item">
+                    <!-- Text Layer -->
+                    <div class="testimonial_094_slide">
+                        <p>Online Travel Agency: Flight Reservations: Hotel Reservations
+                            Visa Processing: Work Permit Processing, Visit Visa, Study Visa, Admissions
+                            oversea, and Relocation Services.
+                         </p>
+                        <div class="deal-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                        </div>
+                        <h5><a href="#">xsaysoft Technology, Abuja</a></h5>
+                    </div> <!-- /Text Layer -->
+                </div> <!-- /item -->
+                <!-- End of Fifth Slide -->
+            </div> <!-- End of Wrapper For Slides -->
+        </div> <!-- End Paradise Slider -->
+    </section>
+    <!-- Testimonials -->
+
+    <!-- Countdown -->
+    <section class="countdown-section">
+        <div class="container">
+            <div class="countdown-title">
+                <h2>Special Tour in May, Discover <span>Thailand</span> for 50 Customers with <span>Discount 30%</span></h2>
+                <p>It’s limited seating! Hurry up</p>
+            </div>
+            <div class="countdown countdown-container container">
+                <p id="demo"></p>
+            </div><!-- /.countdown-wrapper -->
+        </div>
+        <div class="testimonial-overlay"></div>
+    </section>
+    <!-- Countdown Ends -->
+
+    <!-- Blog -->
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2>Our Blog</h2>
+                        <div class="section-icon">
+                            <i class="flaticon-diamond"></i>
+                        </div>
+                        <p>Irrespective of your budget, we create experience that meets your needs. Join millions of satisfied travellers to our story. We are waiting for you.
+</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="blog-item">
+                        <div class="blog-image">
+                            <img src="images/blog10.jpg" alt="Image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date"><p><i class="fa fa-clock-o"></i> Posted On : 19 December</p></div>
+                            <h3><a href="blog-detail.html">Afronation is litty litty</a></h3>
+                            <p>Check out our tourists as they take Ghana. #Afronation is litty litty #Ghana #Vacation #Travel
+                                #RoadTrip #TravelXperience.</p>
+                            <div class="blog-author">
+                                <div class="pull-left">
+                                    <p><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> #TravelXperience</a></p>
+                                </div>
+                                <div class="pull-right blog-date-icon">
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i> 24</p>
+                                    <p><i class="fa fa-heart" aria-hidden="true"></i> 5</p>
+                                    <p><i class="fa fa-comment-o" aria-hidden="true"></i> 0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-item">
+                        <div class="blog-image">
+                            <img src="images/blog11.jpg" alt="Image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date"><p><i class="fa fa-clock-o"></i> Posted On : 3 November</p></div>
+                            <h3><a href="blog-detail.html">Disturbing Dubai 3.0 team</a></h3>
+                            <p>Good morning from the Disturbing Dubai 3.0 team, you can tell they have been having lots of fun!
+                                #Dubai #DisturbingDubai #TheTravelXperience.</p>
+                            <div class="blog-author">
+                                <div class="pull-left">
+                                    <p><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> #TravelXperience</a></p>
+                                </div>
+                                <div class="pull-right blog-date-icon">
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i> 24</p>
+                                    <p><i class="fa fa-heart" aria-hidden="true"></i> 5</p>
+                                    <p><i class="fa fa-comment-o" aria-hidden="true"></i> 0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-item">
+                        <div class="blog-image">
+                            <img src="images/blog9.jpg" alt="Image">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date"><p><i class="fa fa-clock-o"></i> Posted On : 8 February</p></div>
+                            <h3><a href="blog-detail.html">Cheers to the Weekend</a></h3>
+                            <p>Fun times in Dubai for the ultimate Travel experience.
+                            #Travel #Tours #TravelXperience #Vacation #EasterInDubai #CapeVerde.</p>
+                            <div class="blog-author">
+                                <div class="pull-left">
+                                    <p><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> #TravelXperience</a></p>
+                                </div>
+                                <div class="pull-right blog-date-icon">
+                                    <p><i class="fa fa-eye" aria-hidden="true"></i> 24</p>
+                                    <p><i class="fa fa-heart" aria-hidden="true"></i> 5</p>
+                                    <p><i class="fa fa-comment-o" aria-hidden="true"></i> 0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Ends -->
+
+    <!-- Trusted Partners -->
+    <section class="trusted-partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-4">
+                    <div class="partners-title">
+                        <h3>Our <span>Partners</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-9 col-xs-8">
+                    <ul class="partners-logo partners-slider">
+                        <li><a href="#"><img src="images/partner1.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner2.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner3.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner4.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner5.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner6.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner1.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner2.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner3.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner4.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner5.png" alt="Image"></a></li>
+                        <li><a href="#"><img src="images/partner6.png" alt="Image"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trusted Partners Ends -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-upper">
+            <div class="container">
+                <div class="newsletter text-center">
+                    <div class="section-title section-title-white text-center">
+                        <h2>Newsletter Signup</h2>
+                        <div class="section-icon section-icon-white">
+                            <i class="flaticon-diamond"></i>
+                        </div>
+                        <p>Subscribe to our weekly newsletter to get updated on our latest deals</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="search">
+                            <a href="#"><span class="search_btn"><i class="fa fa-paper-plane" aria-hidden="true"></i> Sign Up</span></a>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-links">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="footer-about footer-margin">
+                                <div class="about-logo">
+                                    <img style="float: left; width: 100%" src="images/travel ex logo.png" alt="Image">
+                                </div>
+                                <p><h3>No. 1 stop shop for all your travel needs.</h3></p>
+                                 <p>Nigeria Offices: <br> Lagos Office: 3rd Floor, 
+                                 Lennox Mall, Off Admiralty Way, Lekki Phase 1.</p>
+                                <p>Abuja address: 4th Floor, Tower C Churchgate Plaza AO Cadastral Zone,
+                                Constitution Ave, 900211, Abuja.</p>
+                                <div class="about-location">
+                                    <ul>
+                                        <li><i class="flaticon-maps-and-flags" aria-hidden="true"></i> Location</li>
+                                        <li><i class="flaticon-phone-call"></i>+2348181025777 +2347019818875</li>                                        
+                                        <li><i class="flaticon-mail"></i> hello@thetravelxperience.com</li>
+                                    </ul>
+                                </div>
+                                <div class="footer-social-links">
+                                    <ul>
+                                        <li class="social-icon"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="social-icon"><a href="https://www.instagram.com/thetravelxperience/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li class="social-icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li class="social-icon"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                        <li class="social-icon"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="footer-links-list footer-margin">
+                                <h3>Browse Tour</h3>
+                                <ul>
+                                    <li><a href="#">Cyclades <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    <li><a href="#">North Ionian <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    <li><a href="#">Sporades <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    <li><a href="#">View all Destinations <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    <li><a href="#">View all Yatchs <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    <li><a href="#">View all Cruises <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="footer-recent-post footer-margin">
+                                <h3>Recent Posts</h3>
+                                <ul>
+                                    <li>
+                                        <div class="recent-post-item">
+                                            <div class="recent-post-image">
+                                                <img src="images/bucket1.jpg" alt="Image">
+                                            </div>
+                                            <div class="recent-post-content">
+                                                <h4><a href="#">A trip to heaven</a></h4>
+                                                <p>June 10, 2020</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent-post-item">
+                                            <div class="recent-post-image">
+                                                <img src="images/bucket2.jpg" alt="Image">
+                                            </div>
+                                            <div class="recent-post-content">
+                                                <h4><a href="#">Diving in Atlantic</a></h4>
+                                                <p>December, 2019</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent-post-item">
+                                            <div class="recent-post-image">
+                                                <img src="images/bucket3.jpg" alt="Image">
+                                            </div>
+                                            <div class="recent-post-content">
+                                                <h4><a href="#">Travellers History</a></h4>
+                                                <p>March, 2020</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="footer-links-list">
+                                <div class="footer-instagram">
+                                    <h3>Instagram</h3>
+                                    <ul>
+                                        <li><img src="images/insta1.jpg" alt="Image"></li>
+                                        <li><img src="images/insta2.jpg" alt="Image"></li>
+                                        <li><img src="images/insta3.jpg" alt="Image"></li>
+                                        <li><img src="images/insta4.jpg" alt="Image"></li>
+                                        <li><img src="images/insta5.jpg" alt="Image"></li>
+                                        <li><img src="images/insta6.jpg" alt="Image"></li>
+                                        <li><img src="images/insta7.jpg" alt="Image"></li>
+                                        <li><img src="images/insta8.jpg" alt="Image"></li>
+                                        <li><img src="images/insta9.jpg" alt="Image"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="copyright-content">
+                            <p>2020 <i class="fa fa-copyright" aria-hidden="true"></i>  <a href="" target="_blank"></a></p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="payment-content">
+                            <ul>
+                                <li>We Accept</li>
+                                <li>
+                                    <img src="images/payment1.png" alt="Image">
+                                </li>
+                                <li>
+                                    <img src="images/payment2.png" alt="Image">
+                                </li>
+                                <li>
+                                    <img src="images/payment3.png" alt="Image">
+                                </li>
+                                <li>
+                                    <img src="images/payment4.png" alt="Image">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends -->  
+
+
+    <!-- Back to top start -->
+    <div id="back-to-top">
+        <a href="#"></a>
+    </div>
+    <!-- Back to top ends -->
+
+    <!-- *Scripts* -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main-1.js"></script>
+    <script src="js/custom-countdown.js"></script>
+    <script src="js/preloader.js"></script>
+</body>
+</html>
